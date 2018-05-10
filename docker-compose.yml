@@ -1,0 +1,8 @@
+version: '2'
+services:
+  first_deep:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ".:/app"
